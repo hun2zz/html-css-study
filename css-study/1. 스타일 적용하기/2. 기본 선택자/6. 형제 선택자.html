@@ -7,18 +7,18 @@
 
   <style>
     .orange + li {
-      color: orangered;
+      color: orangered; /* 클래스 오렌지 바로 다음 것을 전부 선택한다.*/
     }
 
-    li + li {
+    li + li { /* 1번쨰 li다음부터 li전부 선택*/
       font-style: italic;
       list-style: none;
-      font-weight: 700;
-      border: 1px solid black;
+      font-weight: 1000;
+      border: 3px solid black;
     }
 
     .red ~ li {
-      background: yellow;
+      background: yellow; /* 클래스 red 다음부터 li를 선택 */
     }
     h1, h2, h3, h4, h5, h6 {
       font-size: 16px;
