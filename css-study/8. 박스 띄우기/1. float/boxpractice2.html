@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      .container {
+        font-size: 30px;
+        text-align: center;
+        border: 2px double blue;
+        width: 600px;
+        background: gray;
+        height: 430px;
+      }
+      .container .mainname {
+        background: gainsboro;
+        margin-top: 0;
+        padding: 15px;
+        font-size: 40px;
+        margin-bottom: 0;
+        font-family: serif;
+      }
+      .container .maincontent {
+        background: rgb(83, 78, 78);
+        margin-top: 0px;
+        font-size: 18px;
+        color: white;
+        font-weight: 300;
+        padding: 10px;
+        margin-bottom: 0px;
+      }
+      strong {
+        color: yellow;
+        font-size: 20px;
+        font-weight: 300;
+      }
+      .container .picture {
+        border: 1px solid #000;
+        width: 23.7%;
+        float: left;
+        margin-bottom: 1%;
+        height: 64%;
+        font-size: 16px;
+        margin-top: 3%;
+        margin-right: 1%;
+        padding: 4px;
+      }
+      .container .picture:nth-child(3) {
+        margin-left: 1%;
+      }
+
+      .container .d1 {
+        background: red;
+        vertical-align: bottom;
+      }
+      .container .d2 {
+        background: purple;
+      }
+      .container .d3 {
+        background: darkorange;
+      }
+      .container .d4 {
+        background: yellow;
+      }
+      .container .d1 .pic1 {
+        height: 50%;
+        border: 1px solid #000;
+        padding: 1px;
+        vertical-align: bottom;
+        background: url(../../../img/tulip.jpg) no-repeat center center;
+        background-size: cover;
+        margin-bottom: 6px;
+      }
+      .container .d2 .pic2 {
+        height: 50%;
+        border: 1px solid #000;
+        padding: 1px;
+        vertical-align: bottom;
+        background: url(../../../img/jebi.jpg) no-repeat center center;
+        background-size: cover;
+        margin-bottom: 6px;
+      }
+      .container .d3 .pic3 {
+        height: 50%;
+        border: 1px solid #000;
+        padding: 1px;
+        vertical-align: bottom;
+        background: url(../../../img/hobak.jpg) no-repeat center center;
+        background-size: cover;
+        margin-bottom: 6px;
+      }
+      .container .d4 .pic4 {
+        height: 50%;
+        border: 1px solid #000;
+        padding: 1px;
+        vertical-align: bottom;
+        background: url(../../../img/sunflower.jpg) no-repeat center center;
+        background-size: cover;
+        margin-bottom: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container clearfix">
+      <h1 class="mainname">나의 아름다운 정원</h1>
+      <h2 class="maincontent">
+        사람들은 아마 자신에게 <strong>자신감을 복돋워 주는</strong> 표정 있는
+        꽃들을 선호할 것이다.
+      </h2>
+      <div class="picture d1 clearfix">
+        <div class="pic1"></div>
+        <div class="content1">
+          너무 화려하지 않으며 고귀한 느낌을 가지고 있다. 붉은 색이 단연
+          으뜸이며 한 송이만 있어도 빼어나다.
+        </div>
+      </div>
+      <div class="picture d2 clearfix">
+        <div class="pic2"></div>
+        <div class="content1">
+          드물게 푸른색을 띠고 있으며 작지만 시원해 보이는 어린 꽃이라고 할 수
+          있다. 여럿이 함께 있을 때 더욱 아름답다.
+        </div>
+      </div>
+      <div class="picture d3 clearfix">
+        <div class="pic3"></div>
+        <div class="content1">
+          색도 모양도 화려하며 이름과 걸맞지 않게 아름다운 꽃으로 매우 완숙한
+          이미지를 풍기는 꽃이다.
+        </div>
+      </div>
+      <div class="picture d4 clearfix">
+        <div class="pic4"></div>
+        <div class="content1">
+          태양만 바라보는 일편단심의 꽃으로 얼굴이 큰 편에 속하며 송이가 적어야
+          제격이다.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
