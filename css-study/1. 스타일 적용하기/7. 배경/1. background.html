@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .box {
+      width: 550px;
+      height: 350px;
+      border: 4px dashed gray;
+      margin: 50px auto;
+
+      background-color: orange;
+      background-image: url(../../../img/sky.jpg);
+
+      /* 배경 사이즈 조정 */
+      /* width와 height를 줄 수 있다. */
+      background-size:100px 100px;
+      background-repeat: no-repeat;
+
+      /* 배경 이미지 위치 수정 */
+      background-position: left bottom;
+      background: no-repeat red url(../../../img/sky.jpg) center / 100px 100px;
+    }
+  </style>
+</head>
+<body>
+  
+    <div class="box"></div>
+</body>
+</html>
