@@ -1,0 +1,158 @@
+@import url(../../common.css);
+#wrapper {
+  height: auto;
+}
+
+/* 헤더 */
+#wrapper h1 {
+  width: 100%;
+  background: orange;
+  height: 140px;
+  text-align: center;
+  font-size: 5em;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+  padding-bottom: 40px;
+  position: relative;
+  /* border: 1px solid #000; */
+}
+#wrapper h1 span {
+  color: white;
+  font-size: 20px;
+  display: block;
+  max-height: 100%;
+  /* border: 1px solid #000;/ */
+  margin: 0;
+  position: relative;
+  bottom: -10px;
+}
+#wrapper .stit {
+  width: 100%;
+  background: rgb(173, 173, 173);
+  text-align: center;
+  padding: 5px;
+}
+
+/* header end */
+
+#wrapper .container {
+  width: 100%;
+  height: 100%;
+  background: white;
+}
+
+#wrapper .container .side-menu {
+  float: left;
+  width: 20%;
+}
+
+#wrapper .container .banner {
+  float: left;
+  width: 20%;
+  padding: 15px;
+}
+
+#wrapper .container .main-content {
+  float: left;
+  width: 60%;
+}
+
+/* 레이아웃 끝*/
+/* 왼 쪽 배너 시작 */
+#wrapper .container .side-menu h3 {
+  background: rgb(232, 51, 51);
+  height: 35px;
+  line-height: 35px;
+  text-indent: 30px;
+  color: white;
+  font-weight: 700;
+}
+#wrapper .container .side-menu ul a {
+  text-decoration: underline;
+}
+#wrapper .container .side-menu ul {
+  text-indent: 20px;
+  padding-top: 15px;
+  line-height: 40px;
+}
+/* 왼쪽 배너 끝*/
+/* 오른쪽 배너 시작 */
+#wrapper .container .banner .all {
+  font-size: 1.2em;
+  color: gray;
+  text-decoration: underline;
+  display: block;
+  letter-spacing: 3px;
+}
+#wrapper .container .banner .love {
+  font-size: 1.2em;
+  color: orange;
+  text-decoration: underline;
+  display: block;
+  letter-spacing: 3px;
+}
+#wrapper .container .banner strong {
+  font-size: 1.2em;
+  color: black;
+  display: block;
+  letter-spacing: 3px;
+}
+#wrapper .container .banner h3 {
+  display: block;
+  /* border: 1px solid #000; */
+  margin-bottom: 40px;
+  line-height: 25px;
+}
+/* 오른쪽 배너 1번박스 끝 */
+
+#wrapper .container .banner .link a {
+  font-size: 14px;
+  text-decoration: underline;
+  color: black;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 2px;
+}
+#wrapper .container .banner .link span {
+  display: block;
+  font-size: 12.5px;
+  margin-bottom: 10px;
+}
+/* 오른쪽 배너 2번박스 끝 */
+#wrapper .container .main-content .art-piece .title a {
+  border: 1px solid #000;
+  display: block;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  padding: 6px;
+  background: rgb(45, 45, 109);
+  color: white;
+}
+#wrapper .container .main-content {
+  background: rgb(231, 226, 226);
+}
+#wrapper .container .main-content .art-piece .artist {
+  padding: 10px;
+  padding-top: 14px;
+  font-weight: 600;
+}
+#wrapper .container .main-content .art-piece .detail {
+  padding: 7px;
+  padding-top: 14px;
+}
+footer address a {
+  text-decoration: underline;
+}
+
+footer address {
+  /* border: 1px solid #000; */
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  background: rgb(60, 60, 166);
+  text-align: center;
+  font-size: 15px;
+}
